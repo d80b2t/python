@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/252/trunk/esutil/htm/htm_src
+END
+BitList.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/BitList.hxx
+END
+SpatialConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialConstraint.cpp
+END
+SpatialInterface.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialInterface.hxx
+END
+SpatialDomain.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialDomain.hxx
+END
+SpatialIndex.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialIndex.hxx
+END
+SpatialException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialException.cpp
+END
+BitList.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/BitList.h
+END
+SpatialVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialVector.cpp
+END
+SpatialConvex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/169/trunk/esutil/htm/htm_src/SpatialConvex.cpp
+END
+VarStr.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/173/trunk/esutil/htm/htm_src/VarStr.cpp
+END
+SpatialEdge.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialEdge.cpp
+END
+SpatialInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialInterface.h
+END
+SpatialConstraint.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialConstraint.hxx
+END
+SpatialIndex.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/173/trunk/esutil/htm/htm_src/SpatialIndex.h
+END
+SpatialDomain.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialDomain.h
+END
+SpatialIndexTcl.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialIndexTcl.h
+END
+SpatialGeneral.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/169/trunk/esutil/htm/htm_src/SpatialGeneral.h
+END
+SpatialVector.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialVector.hxx
+END
+classHeader.inc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/classHeader.inc
+END
+SpatialConvex.hxx
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialConvex.hxx
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SConscript
+END
+SpatialConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialConstraint.h
+END
+indexHeader.inc
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/indexHeader.inc
+END
+BitList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/BitList.cpp
+END
+SpatialInterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/252/trunk/esutil/htm/htm_src/SpatialInterface.cpp
+END
+SpatialException.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialException.h
+END
+SpatialMarkup.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialMarkup.h
+END
+SpatialIndex.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialIndex.cpp
+END
+SpatialConvex.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialConvex.h
+END
+SpatialDomain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialDomain.cpp
+END
+SpatialVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialVector.h
+END
+VarStr.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/173/trunk/esutil/htm/htm_src/VarStr.h
+END
+hierHeader.inc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/hierHeader.inc
+END
+SpatialEdge.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialEdge.h
+END
+SpatialDoc.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/102/trunk/esutil/htm/htm_src/SpatialDoc.h
+END
+VarVec.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/173/trunk/esutil/htm/htm_src/VarVec.h
+END

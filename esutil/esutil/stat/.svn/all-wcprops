@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/411/trunk/esutil/stat
+END
+chist.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/176/trunk/esutil/stat/chist.h
+END
+chist.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/176/trunk/esutil/stat/chist.py
+END
+chist.i
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/176/trunk/esutil/stat/chist.i
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/411/trunk/esutil/stat/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/185/trunk/esutil/stat/__init__.py
+END
+runswig.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/176/trunk/esutil/stat/runswig.sh
+END
+chist_wrap.cc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/176/trunk/esutil/stat/chist_wrap.cc
+END
+unit_tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/176/trunk/esutil/stat/unit_tests.py
+END
+chist.cc
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/271/trunk/esutil/stat/chist.cc
+END

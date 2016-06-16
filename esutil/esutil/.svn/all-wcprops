@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/415/trunk/esutil
+END
+coords.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/415/trunk/esutil/coords.py
+END
+wcsutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/357/trunk/esutil/wcsutil.py
+END
+misc.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/392/trunk/esutil/misc.py
+END
+sqlite_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/345/trunk/esutil/sqlite_util.py
+END
+stomp_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/239/trunk/esutil/stomp_util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/395/trunk/esutil/__init__.py
+END
+plotting.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/391/trunk/esutil/plotting.py
+END
+sfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/371/trunk/esutil/sfile.py
+END
+oracle_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/204/trunk/esutil/oracle_util.py
+END
+ostools.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/404/trunk/esutil/ostools.py
+END
+fits.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/372/trunk/esutil/fits.py
+END
+numpy_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/414/trunk/esutil/numpy_util.py
+END
+json_util.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/385/trunk/esutil/json_util.py
+END
+io.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/410/trunk/esutil/io.py
+END
+cosmology_purepy.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/341/trunk/esutil/cosmology_purepy.py
+END
+random.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/365/trunk/esutil/random.py
+END
+xmltools.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/35/trunk/esutil/xmltools.py
+END
+hdfs.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/408/trunk/esutil/hdfs.py
+END
+algorithm.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/209/trunk/esutil/algorithm.py
+END

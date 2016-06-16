@@ -1,0 +1,11 @@
+prefix=/cos_pc19a_npr/programs/python/esheldon-fitsio-8a89c12/build/cfitsio3280patch
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: cfitsio
+Description: FITS File Subroutine Library
+Version: 3.28
+Libs: -L${libdir} -lcfitsio 
+Libs.private: -lm
+Cflags: -I${includedir}
