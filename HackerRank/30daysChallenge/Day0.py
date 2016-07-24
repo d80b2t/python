@@ -1,12 +1,12 @@
 # Read a full line of input from stdin and save it to our dynamically typed variable, input_string.
-inputString = raw_input()
+inputString = input()
 
 # Type:
 #    Welcome to 30 Days of Code!
 # when prompted by blank prompt...
 
 # Print a string literal saying "Hello, World." to stdout.
-print 'Hello, World.'
+print ('Hello, World.')
 
 # TODO: Write a line of code here that prints the contents of input_string to stdout.
-print inputString
+print (inputString)
