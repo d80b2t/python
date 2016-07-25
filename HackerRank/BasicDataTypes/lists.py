@@ -8,14 +8,29 @@ The extend(L) method will not be used.
 
 Each command will have its own value(s) separated by a space.
 
+Sample Input::
+12
+insert 0 5
+insert 1 10
+insert 0 6
+print 
+remove 6
+append 9
+append 1
+sort 
+print
+pop
+reverse
+print
+
 '''
 
 
-n = input()
+n = eval(input())
 l = []
 
 for _ in range(n):
-    s = raw_input().split()
+    s = input().split()
     ## In [53]: s = raw_input().split()
     ##          insert 0 5
     ## In [54]: s
@@ -32,7 +47,7 @@ for _ in range(n):
         ## this performs the operation of what's inside the ()
         ## and as such, basically operates on l 
     else:
-        print l
+        print(l)
 
 ## https://www.hackerrank.com/challenges/python-lists/tutorial
 
