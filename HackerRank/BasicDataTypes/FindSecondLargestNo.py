@@ -9,13 +9,12 @@ Sample Input:
 2 3 6 6 5
 '''
 
-i = int(eval(input()))
-
+i   = int(eval(input()))
 lis = list(map(int,input().strip().split()))[:i]
-z = max(lis)
+z   = max(lis)
 
 while max(lis) == z:
-    print((z, max(lis)))
+    ## print(z, max(lis))
     ##
     lis.remove(max(lis))
 
