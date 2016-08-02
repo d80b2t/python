@@ -1,0 +1,6 @@
+[submodule "healpixsubmodule"]
+	path = healpixsubmodule
+	url = https://github.com/healpy/healpixmirror.git
+[submodule "cfitsio"]
+	path = cfitsio
+	url = https://github.com/healpy/cfitsio.git
