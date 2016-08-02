@@ -13,6 +13,18 @@ An integer array (or vector) of test scores, scores.
 A char calculate() method that calculates a Student object''s average and returns the grade character representative of their calculated average. 
 
 
+Input Format:: The locked stub code in your editor calls your Student
+class constructor and passes it the necessary arguments. It also calls
+the calculate method (which takes no arguments).
+
+You are not responsible for reading the following input from stdin:
+The first line contains , , and , respectively. The second line
+contains the number of test scores. The third line of space-separated
+integers describes .
+
+Output Format:: This is handled by the locked stub code in your editor. Your output will be correct if your Student class constructor and calculate() method are properly implemented.
+
+
 Sample Input:: 
 Heraldo Memelli 8135627
 2
@@ -29,8 +41,9 @@ Sample Output::
 class Person:
     def __init__(self, firstName, lastName, idNumber):
         self.firstName = firstName
-	self.lastName = lastName
-	self.idNumber = idNumber
+        self.lastName = lastName
+        self.idNumber = idNumber
+        
     def printPerson(self):
         print("Name:", self.lastName + ",", self.firstName)
         print("ID:", self.idNumber)
@@ -64,11 +77,13 @@ class Student(Person):
 
 line = input().split()
 firstName = line[0]
-lastName = line[1]
-idNum = line[2]
-numScores = int(input()) # not needed for Python
+lastName  = line[1]
+idNum     = line[2]
+
 scores = list( map(int, input().split()) )
+
 s = Student(firstName, lastName, idNum, scores)
 s.printPerson()
+
 print("Grade:", s.calculate())
 
