@@ -18,8 +18,22 @@ Note: Because these classes are being written in the same file, you
 must not use an access modifier (e.g.: ) when declaring MyBook or your
 code will not execute.
 
-Input Format:: You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object. 
+Input Format:: You are not responsible for reading any input from stdin. The Solution class creates a Book object and calls the MyBook class constructor (passing it the necessary arguments). It then calls the display method on the Book object.
+
+Output Format:: The void display() method should print and label the respective, title, author and price of the MyBook objects instance (with each value on its own line) like so:
+Title: $title
+Author: $author
+Price: $price
+Note: The  is prepended to variable names to indicate they are placeholders for variables.
+
+Sample Input::
+The following input from stdin is handled by the locked stub code in your editor:
+The Alchemist
+Paulo Coelho
+248
 '''
+
+
 
 from abc import ABCMeta, abstractmethod
 
@@ -29,3 +43,20 @@ class Book(object, metaclass=ABCMeta):
         self.author=author   
     @abstractmethod
     def display(): pass
+
+class MyBook(Book):
+    price = 0
+    def __init__(self, title, author, price):
+        super(Book, self).__init__()
+        self.price = price 
+
+    def display(self):
+        print("Title: "+ title)
+        print("Author: "+ author)
+        print("Price: "+ str(price))
+
+title    =input()
+author   =input()
+price    =int(input())
+new_novel=MyBook(title,author,price)
+new_novel.display()
