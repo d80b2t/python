@@ -22,7 +22,16 @@ Sample Output::
 class Difference:
     def __init__(self, a):
         self.__elements = a
-        
+# Add your code here
+    def computeDifference(self):
+        self.maximumDifference = abs(max(self.__elements) - min(self.__elements)) 
+# End of Difference class
+
+##
+##  NOTE TO NPR: The indentation really had to be correct here!!
+##  aka, you kinda really need to understand these Classes a bit better!!
+##
+
 """
 Your constructor must save the argument passed as its integer array parameter to the integer array instance variable (). 
 
@@ -30,12 +39,7 @@ The computeDifference method must then access the the integer array instance var
 
 Note: The use of Math.abs is not really necessary. Because the problem constraints stipulate that we are only dealing with positive numbers,  will always be positive. 
 """
-# Add your code here
-self.maximumDifference = 0        
-    def computeDifference(self):
-        self.maximumDifference = (max(a)-min(a))
 
-# End of Difference class
 
 _ = input()
 a = [int(e) for e in input().split(' ')]
