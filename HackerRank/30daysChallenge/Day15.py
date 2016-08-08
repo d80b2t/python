@@ -44,19 +44,16 @@ class Solution:
             print(current.data,end=' ')
             current = current.next
             
-    def insert(self,head,data):     #Complete this method
-        new_node=Node(data)
-        if(head==None):
-            head=new_node
+    def insert(self,head,data):
+        #Complete this method
+        current = head
+        if(current):
+            while(current.next):
+                current = current.next
+            current.next = Node(data)
             return head
         else:
-            current=head
-            while current:
-                if(current.next==None):
-                    current.next=new_node
-                    break
-                current=current.next
-                return head
+            return Node(data)
             
             
 mylist= Solution()
