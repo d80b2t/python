@@ -8,7 +8,8 @@ http://seaborn.pydata.org/examples/many_pairwise_correlations.html
 _thumb: .3, .6
 """
 
-from string import letters
+from string import ascii_letters
+#from string import *
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -19,7 +20,7 @@ sns.set(style="white")
 # Generate a large random dataset
 rs = np.random.RandomState(33)
 d = pd.DataFrame(data=rs.normal(size=(100, 26)),
-                 columns=list(letters[:26]))
+                 columns=list(ascii_letters[:26]))
 
 # Compute the correlation matrix
 corr = d.corr()
