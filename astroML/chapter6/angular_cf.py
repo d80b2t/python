@@ -105,4 +105,5 @@ for i in range(2):
 
 plt.show()
 
-savefig('angular_cf_temp.png')
+#savefig('angular_cf_temp.png')
+plt.savefig('angular_cf_temp.png')
