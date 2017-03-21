@@ -47,9 +47,9 @@ flag_blue = ~flag_red
 data_red = data[flag_red]
 data_blue = data[flag_blue]
 
-print "data size:"
-print "  red gals: ", len(data_red)
-print "  blue gals:", len(data_blue)
+print("data size:")
+print("  red gals: ", len(data_red))
+print("  blue gals:", len(data_blue))
 
 
 #------------------------------------------------------------
