@@ -103,5 +103,6 @@ for i in range(2):
     if i == 0:
         ax.set_ylabel(r'$\hat{w}(\theta)$')
 
-
 plt.show()
+
+savefig('angular_cf_temp.png')
