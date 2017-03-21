@@ -79,8 +79,8 @@ Xlocs = np.hstack((data_noisy['ra'][:, np.newaxis],
 Ylocs = np.hstack((data_stacked['RA'][:, np.newaxis],
                    data_stacked['DEC'][:, np.newaxis]))
 
-print "number of noisy points:  ", Xlocs.shape
-print "number of stacked points:", Ylocs.shape
+print("number of noisy points:  ", Xlocs.shape)
+print("number of stacked points:", Ylocs.shape)
 
 # find all points within 0.9 arcsec.  This cutoff was selected
 # by plotting a histogram of the log(distances).
@@ -100,7 +100,7 @@ Yerr = Yerr[stacked_mask]
 
 # double-check that our cross-match succeeded
 assert X.shape == Y.shape
-print "size after crossmatch:", X.shape
+print("size after crossmatch:", X.shape)
 
 
 #----------------------------------------------------------------------
@@ -188,6 +188,8 @@ for i in range(4):
     else:
         ax[i].set_ylabel('$r-i$')
 
+plt.savefig('extreme_XD_stellar_gri_colorcolors_temp.png')
+
 #------------------------------------------------------------
 # Second figure: the width of the locus
 fig = plt.figure(figsize=(5, 3.75))
@@ -227,3 +229,4 @@ ax.set_xlabel('$w$')
 ax.set_ylabel('$N(w)$')
 
 plt.show()
+plt.savefig('extreme_XD_stellar_histos_temp.png')
