@@ -5,21 +5,35 @@ https://pythonprogramming.net/pickle-data-analysis-python-pandas-tutorial/?compl
 '''
 import quandl
 import pandas as pd
-
-## I have my Quandl API Key in quandlapikey.txt
-api_key = open('quandlapikey.txt','r').read()
-
-fiddy_states = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states')
+import pickle
 
 api_key='xTrUFEADji37fXJVMPxM'
-for abbv in fiddy_states[0][0][1:]:
-    #print("FMAC/HPI_"+str(abbv))
-    query="FMAC/HPI_"+str(abbv)
-    #df = quandl.get(query) ## Times out; too many requests (>20 in 10mins)
-    df = quandl.get(query, authtoken=api_key)
 
+def state_list():
+    fiddy_states = pd.read_html('https://simple.wikipedia.org/wiki/List_of_U.S._states')
+    return fiddy_states[0][0][1:]
 
-    
+def grab_initial_state_data():
+    states = state_list()
+    main_df = pd.DataFrame()
+
+    for abbv in states:
+        query = "FMAC/HPI_"+str(abbv)
+        df = Quandl.get(query, authtoken=api_key)
+        print(query)
+        
+        if main_df.empty:
+            main_df = df
+        else:
+            main_df = main_df.join(df)
+            
+    pickle_out = open('fiddy_states.pickle','wb')  ##write bytes
+    pickle.dump(main_df, pickle_out)
+    pickle_out.close()        
+
+  
+grab_initial_state_data()
+
     
     
     
