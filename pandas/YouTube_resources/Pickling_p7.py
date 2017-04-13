@@ -42,10 +42,15 @@ def grab_initial_state_data():
     pickle.dump(main_df, pickle_out)
     pickle_out.close()        
 
+#grab_initial_state_data()
+pickle_in = open('fiddy_states.pickle', 'rb')
+HPI_data = pickle.load(pickle_in)
+#print(HPI_data)
 
-grab_initial_state_data()
+## Pandas has it's own Pickling methodolgy
+## Apparently it's faster on Really Big data sets
+## It's also shorter code::
 
-    
-    
-    
-    
+HPI_data.to_pickle('pickle.pickle')
+HPI_data2 = pd.read_pickle('pickle.pickle')
+print(HPI_data2)
