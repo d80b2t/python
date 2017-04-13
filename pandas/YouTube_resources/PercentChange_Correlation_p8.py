@@ -48,14 +48,16 @@ def grab_initial_state_data():
 def HPI_Benchmark():
     ## US-wide HPI 
     df_us = quandl.get("FMAC/HPI_USA", authtoken=api_key)
-    ## Can do a df.head()
+    ## Can do a df.head() to see what the columns are named
     print(df_us.head())
-    #df_us.columns = ["United States"]
-    
+    #df_us.columns = ["United States"] ## This doesn't help
     #print(df_us[Value], df_us[Value][0])
-    #df_us["United States"] = (df_us["United States"] - df_us["United States"][0]) / df_us["United States"][0] *100
+    
+    #df_us["United States"] = (df_us["United States"] - df_us["United States"][0]) / df_us["United States"][0] *100 ## Is given in the video, but doesn't work
     df_us["Value"] = (df_us["Value"] - df_us["Value"][0]) / df_us["Value"][0] *100
-    return df_us
+    
+    return df_us ## critical line, duh!!! 
+
         
 ## Running this generates the new fiddy_*.pickle file
 #grab_initial_state_data()
@@ -71,19 +73,35 @@ HPI_data = pd.read_pickle('fiddy_states3.pickle')
 #HPI_data['TX2']  = HPI_data['TX']*2
 #print(HPI_data[['TX', 'TX2']])
 
-## Let's create a correlation table. W00T W00T!!!
-HPI_State_Correlation = HPI_data.corr()
-print(HPI_State_Correlation)
-
-
-
+## Run the function..
 benchmark = HPI_Benchmark()
-HPI_data.plot(ax=ax1)
-benchmark.plot(color='k',ax=ax1, linewidth=10)
+
+
+#HPI_data.plot(ax=ax1, linewidth=1)
+HPI_data.plot(ax=ax1, linewidth=2)
+## for colors, b is blue, k is black
+benchmark.plot(color='k',ax=ax1, linewidth=6, linestyle='--')
 
 #HPI_data.plot()
 plt.legend().remove()
 plt.show()
 
+## Let's create a correlation table. W00T W00T!!!
+HPI_State_Correlation = HPI_data.corr()
 
-## doing things in "% change" :-)
+## Noting HPI_State_Correlation is a dataframe...
+##In [9]: type(HPI_State_Correlation)
+##Out[9]: pandas.core.frame.DataFrame
+
+print(HPI_State_Correlation)
+
+print(HPI_State_Correlation.min)         ## print the 50x50... 
+print(HPI_State_Correlation.min())       ## prints the min of each State...
+# print(HPI_State_Correlation.min()[0])  ## gives the min for AL
+# print(HPI_State_Correlation.min()[1])  ## gives the min for AK etc. 
+# type(HPI_State_Correlation.min()[1])   ## is a numpy.float64
+
+## Describe the detail, some top level-nos and stats...
+print(HPI_State_Correlation.describe())
+
+
