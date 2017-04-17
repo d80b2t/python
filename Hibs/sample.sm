@@ -1,0 +1,35 @@
+plot 0
+	#
+	# Read in the data 
+	#
+	data "data.txt"
+	read {x 1 y 2}
+	#
+	# Make the plot	
+	#
+	erase
+	limits 1 5 0 10
+	ticksize -1 0 0 0
+	window 1 1 1 1 
+	ctype black
+	lweight 3
+	expand(1.5)
+	notation -4 -4 -4 4
+	box 
+	xlabel Normal text vs. math text
+	ylabel A B C \alpha\, \beta\, \gamma
+	#
+	# Plot the data
+	#
+	ctype blue ptype 10 3 points x y 
+	ctype black ptype 10 0 points x y 
+	#
+	# Make the legend
+	#
+	relocate 1.2 9.3  label Legend
+	ctype blue ptype 10 3 relocate 1.3 8.9 dot
+	ctype black ptype 10 0 relocate 1.3 8.9 dot
+	expand(1.25) 
+	relocate 1.4 8.8 label data
+	expand(1.5)
+	
