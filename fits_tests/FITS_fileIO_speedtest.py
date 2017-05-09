@@ -1,4 +1,5 @@
 from astropy.table import Table
+from astropy.io import fits
 import fitsio
 import time
 import timeit
@@ -19,7 +20,8 @@ columns = ['OBJID']
 
 #str = fitsio.read(fname_decals, columns=columns)
 #str = Table.read(fname_decals, columns=columns)
-str = pyfits.open(fname_decals, memmap=True)
+str = fits.open(fname_decals,colums=columns)
+#str = pyfits.open(fname_decals, memmap=True)
 
 print("--- %s seconds ---" % (time.time() - start_time))
 
