@@ -1,0 +1,34 @@
+
+ F O L I U M
+========================================================================================
+Okay, this is frigging cool::
+  https://github.com/python-visualization/folium
+  folium.readthedocs.io/en/latest/quickstart.html
+  https://pypi.python.org/pypi/folium
+  https://blog.dominodatalab.com/creating-interactive-crime-maps-with-folium/
+  https://python-visualization.github.io/folium/module/folium.html
+	
+
+
+ earthquakes.ipynb
+========================================================================================
+https://app.dominodatalab.com/u/r00sj3/jupyter/view/batchdemo.ipynb
+But think I need to update/do something with folium, since I'm getting an::
+    AttributeError: 'Map' object has no attribute 'circle_marker'
+error.
+
+
+https://blog.dominodatalab.com/creating-interactive-crime-maps-with-folium/
+
+https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
+
+
+ Data here::
+========================================================================================
+https://github.com/python-visualization/folium/tree/master/examples/data
+
+
+  Domino Data Science Blog
+========================================================================================
+https://blog.dominodatalab.com/tag/jupyter/
+https://blog.dominodatalab.com/interactive-dashboards-in-jupyter/
