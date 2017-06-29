@@ -1,0 +1,21 @@
+
+AstroPy Digest, Vol 129, Issue 6
+
+
+The difference is that the constant G is a Quantity as opposed to the units M_sun, au.
+When using constants and Quantities throughout, both ways should work:
+
+import astropy.constants as apc
+import astropy.units as apu
+
+print('v={0:}'.format(np.sqrt(apc.G.to('km3/(kg s2)')*apc.M_sun.to('kg')/(1*apu.au).to('km'))))
+v=29.788833564362875 km / s
+
+print(?v = {0:.3f}'.format(np.sqrt(apc.G*apc.M_sun/(1*apu.au)).to('km/s')))
+v = 29.789 km / s
+
+May not seem too intuitive, and I can?t actually tell you the reasoning why it is behaving
+this way, but as the unit is just an attribute of a Quantity, there probably is one?
+
+HTH,
+Derek
