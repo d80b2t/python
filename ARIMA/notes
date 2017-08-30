@@ -1,0 +1,27 @@
+===============================================================
+==
+==	N O T E S
+==
+===============================================================
+
+/cos_pc19a_npr/programs/Python/ARIMA
+
+
+Purpose
+===============================================================
+To continue building my DS and Python ``toolbox'' with useful
+techniques and codes. This is for the autoregressive integrated
+moving average (ARIMA) model, used in a lot of e.g., statistics
+and econometrics time series analyses.
+
+
+Links
+===============================================================
+https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average
+
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+https://machinelearningmastery.com/make-manual-predictions-arima-models-python/
+https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/
+https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3
+
+
