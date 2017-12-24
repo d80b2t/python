@@ -1,0 +1,27 @@
+===============================================================
+==
+==
+== 	 R E A D M E
+==
+==
+===============================================================
+
+
+/cos_pc19a_npr/programs/Python/polynomials
+
+
+
+ Purpose
+===============================================================
+A directory for simple polynomial plottings...
+
+
+ Inspiration
+===============================================================
+Section 2.4 of Finkbeinher et al. (2016) and SDSS vs. PS1
+color terms and transforms
+
+
+
+
+https://stackoverflow.com/questions/47060775/matplotlib-and-python-loop-over-two-dimensions
