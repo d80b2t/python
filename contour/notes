@@ -1,0 +1,24 @@
+===============================================================
+==
+==
+== 	 R E A D M E
+==
+==
+===============================================================
+
+/cos_pc19a_npr/programs/Python/contour
+
+
+ Purpose
+===============================================================
+A directory for testing and plotting contour plots...
+
+
+ contours_2_*
+===============================================================
+http://astroplotlib.stsci.edu/page_contours.htm
+
+
+
+Use meshgrid() if your data is uniformly spaced, like in the linked example.
+Interpolate e.g. with griddata() if your data if not uniformly spaced
